@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val boton = findViewById<Button>(R.id.btn_ingresar);
 
         boton.setOnClickListener {
-                val intent = Intent(this@MainActivity, MainActivity2::class.java)
+                val intent = Intent(this@MainActivity, pantalla_revistas::class.java)
                 startActivity(intent);
         }
 

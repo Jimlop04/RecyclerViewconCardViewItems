@@ -7,6 +7,12 @@
         <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
         <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pantalla_articulos.xml" value="0.33" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pantalla_revistas.xml" value="0.5" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pantalla_volumenes.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cardview_articulos.xml" value="0.33" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cardview_revistas.xml" value="0.25" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cardview_volumenes.xml" value="0.33" />
       </map>
     </option>
   </component>

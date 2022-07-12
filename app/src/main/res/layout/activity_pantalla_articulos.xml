@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantalla_articulos">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/items_articulos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/Tarticulos"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginStart="-1dp"
+        android:background="#2DA00D"
+        android:paddingLeft="8dp"
+        android:text="ARTICULOS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:background="#2DA00D"
+        android:paddingLeft="8dp"
+        android:text="Categorias :"
+        android:textColor="#FFC107"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

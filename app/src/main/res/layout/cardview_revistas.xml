@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/informacionRevistas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRevista"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtNombreRevista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nombre Revista"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtAbreviatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="abreviatura"
+                android:textColor="#150000"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
